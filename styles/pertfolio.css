@@ -1,0 +1,134 @@
+
+
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+/* primary style */
+.primary-color{
+    color: #FD6E0A;
+}
+.DARK-2{
+    color: #474747;
+}
+.secondary-bg{
+    background-color: #FFF8F3;
+}
+.btn-primary{
+  background-color: #FD6E0A; 
+  padding: 18px 35px;
+  font-weight: bold;
+   font-size: 20px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  opacity: 100%;
+
+}
+
+/* nav styles */
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 200px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+.nav-title{
+    font-weight: 800;
+    font-size: 45px;
+}
+nav ul li {
+    list-style: none;
+    font-size: 20PX;
+    margin-right: 51px;
+}
+nav li a{
+     text-decoration: none;
+}
+/* header  style */
+    .header{
+        background-image: url(../images/developer.png), url(../images/header_bg.png) ;
+        background-repeat: no-repeat;
+        background-position: top left, bottom right;
+    }
+
+/* bannaer style */
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 38px 0 220px;
+}
+.banner-content{
+    max-width: 585px;
+}
+
+.banner-greetings{
+    font-weight: 600;
+    font-size: 45px;
+}
+.banner-title{
+    font-weight: bold;
+    font-size: 85px;
+}
+.banner-profile-pic{
+    width: 584px;
+    height: 676px;
+}
+.banner-description{
+    font-weight: 400px ;
+    font-size: 18px;
+    width: 885px;
+}
+/* section title  */
+.section-title{
+    font-weight: bold;
+    font-size: 35px;
+}
+.section-description{
+    font-size: 18px; 
+    color: #757575;
+}
+
+/* main style */
+    main{
+        max-width: 1140px;
+        margin: 0 auto;
+    }
+    main section{
+         margin-top: 130px;
+         margin-bottom: 130px;
+    }
+/* about style */
+.about{
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+   
+}
+.about-items{
+    display: flex;
+    justify-content: space-between;
+}
+.item-description{
+    font-weight: 600;
+}
+
+.text-align{
+    text-align: center;
+}
+.skills-container{
+    display: flex;
+    gap: 24px;
+}
+.skill{
+    padding:30px ;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
